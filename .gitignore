@@ -1,0 +1,10 @@
+node_modules/
+.local/
+.env
+.env.*
+!.env.example
+.npmrc
+.DS_Store
+*.log
+mcp-config.json
+coverage/

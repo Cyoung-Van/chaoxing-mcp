@@ -1,0 +1,38 @@
+{
+  "name": "chaoxing-mcp",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Local MCP tools for authenticated Chaoxing course and task queries over Chrome CDP",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "browser": "node scripts/browser.mjs",
+    "doctor": "node src/cli.mjs doctor",
+    "sync": "node src/cli.mjs sync",
+    "mcp": "node src/mcp.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "linkedom": "0.18.13",
+    "zod": "4.6.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyoung-Van/chaoxing-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cyoung-Van/chaoxing-mcp/issues"
+  },
+  "homepage": "https://github.com/Cyoung-Van/chaoxing-mcp#readme",
+  "keywords": [
+    "mcp",
+    "chaoxing",
+    "chrome-devtools-protocol",
+    "learning"
+  ]
+}
